@@ -4,12 +4,12 @@
 }
 
 body {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-}
-
-main {
-    margin: auto;
+    margin: 0 20px;
     text-align: center;
 }
 
