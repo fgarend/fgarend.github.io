@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: "Lato", sans-serif;
+    font-family: "Exo 2", sans-serif;
 }
 
 body {
@@ -19,6 +19,11 @@ h1 {
     font-style: italic;
 }
 
+p {
+    font-size: 1.1rem;
+}
+
 a {
+    font-size: 1.1rem;
     color: black;
 }
