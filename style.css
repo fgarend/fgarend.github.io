@@ -50,8 +50,10 @@ h1 b {
     font-weight: 800;
 }
 
-p {
+main p {
+    color: var(--fga-dark-gray);
     font-size: 1.1rem;
+    max-width: 450px;
 }
 
 a {
