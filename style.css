@@ -56,14 +56,14 @@ main p {
     max-width: 450px;
 }
 
-footer {
+.social-media {
     display: flex;
     justify-content: center;
     gap: 16px;
     padding: 20px;
 }
 
-footer a {
+.social-media a {
     display: inline-flex;
     text-decoration: none;
     align-items: center;
@@ -77,7 +77,7 @@ footer a {
     transition: fill 0.3s ease-in-out, transform 0.2s ease;
 }
 
-footer a:hover .social-media-icon {
+.social-media a:hover .social-media-icon {
     fill: var(--fga-medium-blue);
     transform: scale(1.1);
 }
