@@ -56,7 +56,28 @@ main p {
     max-width: 450px;
 }
 
-a {
-    font-size: 1.1rem;
-    color: black;
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+}
+
+footer a {
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.social-media-icon {
+    width: 32px;
+    height: 32px;
+
+    fill: var(--fga-dark-gray);
+    transition: fill 0.3s ease-in-out, transform 0.2s ease;
+}
+
+footer a:hover .social-media-icon {
+    fill: var(--fga-medium-blue);
+    transform: scale(1.1);
 }
