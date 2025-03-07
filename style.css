@@ -1,3 +1,9 @@
+:root {
+    --fga-medium-blue: #1d6bc5;
+    --fga-dark-gray: #444444;
+    --fga-medium-gray: #777777;
+}
+
 * {
     box-sizing: border-box;
     font-family: "Exo 2", sans-serif;
@@ -8,23 +14,44 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
+
     height: 100vh;
     margin: 0 20px;
+
     text-align: center;
 }
 
 h1 {
-    color: #1c6bc5;
-    font-size: 3rem;
+    color: var(--fga-dark-gray);
+
+    font-size: 3.5rem;
     font-style: italic;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+
+    margin: 0;
+}
+
+h2 {
+    color: var(--fga-medium-gray);
+
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: lowercase;
+
+    margin: 0;
+}
+
+h1 b {
+    color: var(--fga-medium-blue);
+    font-weight: 800;
 }
 
 p {
     font-size: 1.1rem;
-}
-
-footer {
-    margin-top: 20px;
 }
 
 a {
