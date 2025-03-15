@@ -73,6 +73,7 @@ main p strong {
 
 footer p {
     color: var(--fga-dark-gray);
+    font-style: italic;
 }
 
 .social-media {
