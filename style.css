@@ -1,8 +1,9 @@
 :root {
-    --fga-dark-blue: #0f4a8a;
-    --fga-medium-blue: #1d6bc5;
-    --fga-dark-gray: #444444;
-    --fga-medium-gray: #777777;
+    --fga-blue-dark: #0f4a8a;
+    --fga-blue-medium: #1d6bc5;
+
+    --fga-gray-dark: #444444;
+    --fga-gray-medium: #777777;
 }
 
 * {
@@ -25,7 +26,7 @@ body {
 }
 
 h1 {
-    color: var(--fga-dark-gray);
+    color: var(--fga-gray-dark);
 
     font-size: 3.5rem;
     font-style: italic;
@@ -37,7 +38,7 @@ h1 {
 }
 
 h2 {
-    color: var(--fga-medium-gray);
+    color: var(--fga-gray-medium);
 
     font-size: 1.5rem;
     font-style: italic;
@@ -48,12 +49,12 @@ h2 {
 }
 
 h1 b {
-    color: var(--fga-medium-blue);
+    color: var(--fga-blue-medium);
     font-weight: 800;
 }
 
 main p {
-    color: var(--fga-dark-gray);
+    color: var(--fga-gray-dark);
     font-size: 1.1rem;
     max-width: 500px;
 
@@ -68,11 +69,11 @@ main p {
 }
 
 main p strong {
-    color: var(--fga-dark-blue);
+    color: var(--fga-blue-dark);
 }
 
 footer p {
-    color: var(--fga-dark-gray);
+    color: var(--fga-gray-dark);
     font-style: italic;
 }
 
@@ -93,11 +94,11 @@ footer p {
     width: 32px;
     height: 32px;
 
-    fill: var(--fga-dark-gray);
+    fill: var(--fga-gray-dark);
     transition: fill 0.3s ease-in-out, transform 0.2s ease;
 }
 
 .social-media a:hover .social-media-icon {
-    fill: var(--fga-medium-blue);
+    fill: var(--fga-blue-medium);
     transform: scale(1.1);
 }
