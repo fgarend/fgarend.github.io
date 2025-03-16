@@ -70,7 +70,7 @@ footer {
 }
 
 main p {
-    color: var(--fga-gray-medium);
+    color: var(--fga-gray-dark);
     font-size: 1.1rem;
     max-width: 500px;
 
@@ -87,7 +87,7 @@ main p strong {
 }
 
 footer p {
-    color: var(--fga-gray-medium);
+    color: var(--fga-gray-dark);
     font-style: italic;
 }
 
@@ -108,7 +108,7 @@ footer p {
     width: 32px;
     height: 32px;
 
-    fill: var(--fga-gray-medium);
+    fill: var(--fga-gray-dark);
     transition: fill 0.3s ease-in-out, transform 0.2s ease;
 }
 
