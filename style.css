@@ -63,15 +63,15 @@ body {
 }
 
 main p {
-    color: var(--fga-gray-dark);
+    color: var(--fga-gray-medium);
     font-size: 1.1rem;
     max-width: 500px;
 
     line-height: 1.5;
 
     box-shadow: var(--fga-box-shadow);
-    padding: 4rem 2rem;
-    border-radius: 10px;
+    padding: 3rem 2rem;
+    border-radius: 5px;
     background-color: white;
 }
 
@@ -80,7 +80,7 @@ main p strong {
 }
 
 footer p {
-    color: var(--fga-gray-dark);
+    color: var(--fga-gray-medium);
     font-style: italic;
 }
 
@@ -101,7 +101,7 @@ footer p {
     width: 32px;
     height: 32px;
 
-    fill: var(--fga-gray-dark);
+    fill: var(--fga-gray-medium);
     transition: fill 0.3s ease-in-out, transform 0.2s ease;
 }
 
