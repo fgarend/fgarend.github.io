@@ -22,9 +22,15 @@ This website serves as a personal portfolio for Felipe Gabriel Arend. It will in
 
 ## Fonts Used
 
-The website uses the Google Font **Exo 2**. Exo 2 is a modern geometric sans-serif font family designed by Natanael Gama. It is known for its versatility and readability, making it suitable for both headings and body text. The font is included in the project via a link to Google Fonts in the `index.html` file.
+The website uses the Google Fonts **Exo 2** and **Caveat**.
 
-You can find more information about Exo 2 on its [Google Fonts page](https://fonts.google.com/specimen/Exo+2).
+**Exo 2** is a modern geometric sans-serif font family designed by Natanael Gama. It is known for its versatility and readability, making it suitable for both headings and body text.
+
+**Caveat** is a cursive font designed by Pablo Impallari. It is known for its informal and friendly style, making it suitable for headings and emphasis.
+
+Both fonts are included in the project via a link to Google Fonts in the `index.html` file.
+
+You can find more information about Exo 2 on its [Google Fonts page](https://fonts.google.com/specimen/Exo+2) and about Caveat on its [Google Fonts page](https://fonts.google.com/specimen/Caveat).
 
 ## Font Awesome Icons
 
